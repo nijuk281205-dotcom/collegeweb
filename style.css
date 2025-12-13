@@ -1,0 +1,97 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffe6f0;
+    /* soft pink background */
+}
+
+header {
+    background: #cc0033;
+    /* deep red header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.info,
+.courses,
+.table-section {
+    background: #fff0f5;
+    /* very light pink cards */
+    margin: 20px auto;
+    width: 90%;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(204, 0, 51, 0.3);
+}
+
+h2 {
+    color: #cc0033;
+    /* red headings */
+    margin-bottom: 10px;
+}
+
+.courses ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.courses li {
+    background: #ff99aa;
+    /* pinkish list items */
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 6px;
+    color: #66001a;
+    /* dark red text */
+    font-weight: bold;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th,
+table td {
+    border: 1px solid #cc0033;
+    padding: 12px;
+    text-align: center;
+}
+
+table th {
+    background: #cc0033;
+    /* red header */
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background: #ffe6f0;
+    /* alternating pink rows */
+}
+
+.visit-btn {
+    padding: 8px 15px;
+    background: #ff4d79;
+    /* pink button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.visit-btn:hover {
+    background: #cc0033;
+    /* dark red on hover */
+    color: #fff;
+}
